@@ -1,0 +1,6 @@
+framework module AlbumTool {
+  umbrella header "AlbumTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
