@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AlbumTool_Example' do
+  pod 'AlbumTool', :path => '../'
+
+  target 'AlbumTool_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
