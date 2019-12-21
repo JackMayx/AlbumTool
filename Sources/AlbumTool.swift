@@ -15,7 +15,7 @@ import Photos
 public class AlbumTool: NSObject {
     public static var albumName = "你的相册名称"
     public static let shared = AlbumTool()
-    
+
     private var assetCollection: PHAssetCollection!
     
     private override init() {
@@ -135,5 +135,13 @@ public class AlbumTool: NSObject {
                 
             }
         }
+    }
+}
+
+
+extension AlbumTool: NSCopying {
+
+    func copy(with zone: NSZone? = nil) -> Any {
+        return self
     }
 }
