@@ -9,13 +9,14 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 ```
-        ///需要创建的相册名称
-        AlbumTool.albumName = ""
-        ///需要保存的视频路径
-        let url = URL(fileURLWithPath: urls!)
-        AlbumTool.shared.saveVideoToLibrary(with:url) { (isSuccess, isError) in   
-             ///成功和失败的信息
-        }
+///需要创建的相册名称
+AlbumTool.albumName = ""
+///需要保存的视频路径
+let url = URL(fileURLWithPath: urls!)
+AlbumTool.shared.saveVideoToLibrary(with:url) { (isSuccess,     isError) in   
+ ///成功和失败的信息
+ 
+}
 ```
 
 ## Requirements

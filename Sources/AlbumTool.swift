@@ -141,7 +141,7 @@ public class AlbumTool: NSObject {
 
 extension AlbumTool: NSCopying {
 
-    func copy(with zone: NSZone? = nil) -> Any {
+    public func copy(with zone: NSZone? = nil) -> Any {
         return self
     }
 }
