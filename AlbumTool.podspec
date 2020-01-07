@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AlbumTool'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = '一行代码保存照片、视频到指定相册中'
 
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                      AlbumTool是可以使用一行代码保存照片、视频到指定相册中的工具类库，方便使用
                        DESC
 
   s.homepage         = 'https://github.com/XiAnRuFeng/AlbumTool'
