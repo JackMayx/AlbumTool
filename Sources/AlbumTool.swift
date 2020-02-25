@@ -59,7 +59,6 @@ public class AlbumTool: NSObject {
                     self.assetCollection = self.fetchAssetCollectionForAlbum()
                     completion(true)
                 } else {
-                    // Unable to create album
                     completion(false)
                 }
             }
